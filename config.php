@@ -14,7 +14,7 @@ $db_pass = 'kind512r';
 
 try {
     $pdo = new PDO("mysql:dbname=".$db_name.";host=".$db_host,$db_user,$db_pass);
-    //$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     return $pdo;
 } catch (PDOException $e){
     echo "Error ".$e->getMessage();

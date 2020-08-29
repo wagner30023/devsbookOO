@@ -13,8 +13,10 @@ class User {
     public $token;
 }
 
-interface UserDAO {
+
+interface UserDAO{
     public function findByToken($token);
-    public function findByEmail($email,$password);
+    public function findByEmail($email);
     public function update(User $u);
+    public function insert(User $u);
 }
