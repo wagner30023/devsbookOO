@@ -16,6 +16,6 @@ if($email && $password){
     }
 }
 
-$_SESSION['flash'] = '<span style="color: #f00">E-mail e/ou senha inválidos  !<span>';
+$_SESSION['flash'] = '<span style="color: #f00">E-mail e/ou senha inválidos! <span>';
 header("Location: ".$base."/login.php");
 exit;

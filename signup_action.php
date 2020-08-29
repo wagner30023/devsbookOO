@@ -12,7 +12,6 @@ $birthdate = filter_input(INPUT_POST,'birthdate');
 if($name && $email && $password && $birthdate){
 
     $auth = new Auth($pdo,$base);
-
     $birthdate = explode('/',$birthdate);
     if(count($birthdate) != 3){
         $_SESSION['flash'] = " Data de nascimento inválida.";
