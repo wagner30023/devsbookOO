@@ -473,9 +473,6 @@ header .head-side {
     .full-friend-list {
         grid-template-columns: repeat(3, 1fr);
     }
-
-    .full-user-photos {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    /* adicionado comentário */
 }
+
+/*  teste de conflito  */
