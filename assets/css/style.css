@@ -474,8 +474,8 @@ header .head-side {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .full-user-photos {
-        grid-template-columns: repeat(1, 1fr);
-    }
+   
 
 }
+
+/*  teste de conflito  */
