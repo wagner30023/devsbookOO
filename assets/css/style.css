@@ -477,5 +477,5 @@ header .head-side {
     .full-user-photos {
         grid-template-columns: repeat(1, 1fr);
     }
-
+    /* adicionado comentário */
 }
